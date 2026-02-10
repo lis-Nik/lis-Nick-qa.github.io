@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>лисёнок</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="name">НИК ЛИСИЦЫН</div>
+
+    <div class="block">
+      <div class="block-title">на связи</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="https://t.me/Mr_Nik1" target="_blank"> telegram</a>
+        </div>
+       
+          <div class="entry">
+          <a href="https://vk.com/foxcub_nik_g" target="_blank">
+           VK</a> 
+          <div class="entry">
+          <p>Lisenock-Nick@yandex.ru</p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">чем занимаюсь</div>
+      <div class="entry">
+        <p> ручной тестировшик </p>
+      </div>
+      <div class="entry">
+        <div class="block-title">немного о себе</div>
+      </div>
+      <div class="entry">
+        <p>я Ник мне 21 год, закончил курсы ручного тестировшика. Познакомился с многими инструментами тестировшика такими как postman для тестирования api, devtools для поиска неполадок на сайте, знаком с Kibana и sentpy для просмотра логов, а также с grafana и многими другими инструментами тестировшика. ответсвенно подхожу к своему делу готов работать в команде</p>
+      </div>
+    </div>
+  </body>
+</html>
